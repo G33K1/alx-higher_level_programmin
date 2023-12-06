@@ -9,5 +9,5 @@ if __name__ == "__main__":
         print("{}: {}".format(count, sys.argv[1]))
     else:
         print("{} arguments:".format(count))
-        for i in range (1, count + 1):
+        for i in range(1, count + 1):
             print("{}: {}".format(i, sys.argv[i]))
